@@ -1,0 +1,16 @@
+name: Bam
+main: net.rymate.bam.Bam
+depend: [ Vault ]
+version: 1
+author: rymate1234
+website: www.bukkit.org
+description: Jail people to the nether roof!
+commands:
+  bam:
+    description: Bam's someone to the nether!
+    usage: /<command> <player> <reason>
+    aliases: [jail]
+  unbam:
+    description: Unbam's someone to the spawn point!
+    usage: /<command> <player>
+    aliases: [release, unjail, free]  
